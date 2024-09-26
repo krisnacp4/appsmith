@@ -1,0 +1,28 @@
+{
+  "gitSyncId": "66f230eb25e8b14b5c901a19_3cccad46-4c55-407d-a05f-0bb0cad8d81a",
+  "id": "listData_POObject",
+  "unpublishedCollection": {
+    "name": "POObject",
+    "pageId": "listData",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "datas",
+        "value": "mockPOList.data.data"
+      },
+      {
+        "name": "productStatusList",
+        "value": "[\"New PO\", \"Waiting for Client\", \"Payment Confirmed\", \"New Brand Certification\", \"Waiting for Disburse\", \"RPlus Disbursement\", \"Mass Production\", \"Distribution\"]"
+      },
+      {
+        "name": "myMap",
+        "value": "[]"
+      },
+      {
+        "name": "createdPokemon",
+        "value": "{\n  \"name\": \"\",\n  \"stats\": \"\"\n}"
+      }
+    ]
+  }
+}
