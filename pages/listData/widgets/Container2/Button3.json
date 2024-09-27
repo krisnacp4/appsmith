@@ -1,0 +1,63 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 58,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonVariant": "PRIMARY",
+  "disabledWhenInvalid": false,
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "resetFormOnClick"
+    },
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "isDefaultClickDisabled": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": "{{pokemonName.text!==\"\"}}",
+  "key": "nkgfv4gi26",
+  "leftColumn": 26,
+  "minWidth": 120,
+  "mobileBottomRow": 58,
+  "mobileLeftColumn": 26,
+  "mobileRightColumn": 42,
+  "mobileTopRow": 54,
+  "needsErrorInfo": false,
+  "onClick": "{{POObject.mapPOList();}}",
+  "originalBottomRow": 58,
+  "originalTopRow": 54,
+  "parentColumnSpace": 20.25,
+  "parentId": "gtgdoja0sl",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": "false",
+  "responsiveBehavior": "hug",
+  "rightColumn": 42,
+  "text": "Submit",
+  "topRow": 54,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "lpdrq5erpa",
+  "widgetName": "Button3"
+}
